@@ -1,0 +1,4 @@
+INSERT INTO Trains (TrainId, Number, Type)
+VALUES
+    ('00000000-0000-0000-0000-000000000001', 'T123', 'Express'),
+    ('00000000-0000-0000-0000-000000000002', 'S456', 'Local');

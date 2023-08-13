@@ -1,0 +1,8 @@
+CREATE TABLE Tickets (
+    TicketId UNIQUEIDENTIFIER PRIMARY KEY,
+    UserId UNIQUEIDENTIFIER,
+    ScheduleId UNIQUEIDENTIFIER,
+    Price DECIMAL(10, 2),
+    FOREIGN KEY (UserId) REFERENCES Users(UserId),
+    FOREIGN KEY (ScheduleId) REFERENCES Schedule(ScheduleId)
+);

@@ -1,0 +1,5 @@
+CREATE TABLE Stations (
+    StationId UNIQUEIDENTIFIER PRIMARY KEY,
+    Name VARCHAR(100),
+    Address VARCHAR(200)
+);
